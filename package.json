@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test_cypress_open": "cypress open",
+    "test_cypress_run": "cypress run"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "14.0.0",
+    "@cypress/webpack-preprocessor": "5.15.5",
+    "cypress": "11.0.1",
+    "ts-loader": "9.4.1",
+    "typescript": "4.9.3",
+    "webpack": "5.75.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/step_definitions"
+  }
+}
